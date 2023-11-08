@@ -1,0 +1,11 @@
+<!-- Calendar View -->
+<record id="view_credit_request_calendar" model="ir.ui.view">
+    <field name="name">credit.request.calendar</field>
+    <field name="model">credit.request</field>
+    <field name="arch" type="xml">
+        <calendar string="Credit Request Calendar" date_start="date">
+            <field name="name"/>
+            <!-- Agrega aquí más campos si quieres mostrarlos en la vista de calendario -->
+        </calendar>
+    </field>
+</record>
