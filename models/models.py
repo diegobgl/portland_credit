@@ -2,7 +2,7 @@ from odoo import models, fields, api
 
 class CreditRequest(models.Model):
     _name = 'credit.request'
-    _inherit = ['mail.thread', 'mail.activity.mixin']
+   # _inherit = ['mail.thread', 'mail.activity.mixin']
 
     _description = 'Credit Request'
 
